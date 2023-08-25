@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useLayoutEffect, useRef } from 'react';
 
-export default function index() {
+export default function Index() {
   const phrases = [
     'Los Flamencos National Reserve',
     'is a nature reserve located',
