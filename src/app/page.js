@@ -12,7 +12,7 @@ export default function Home() {
       const locomotiveScroll = new LocomotiveScroll();
     })();
   }, []);
-
+  //needs to be async
   return (
     <main className={styles.main}>
       <Intro />
